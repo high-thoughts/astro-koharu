@@ -22,5 +22,6 @@ const { className, post } = Astro.props;
       <PostFooter post={post} />
       <Footer />
     </div>
+    <slot name="right" />
   </div>
 </div>

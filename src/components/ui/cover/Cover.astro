@@ -4,6 +4,7 @@ import { createArticleStatsConfig, siteConfig } from '@constants/site-config';
 import { getPostReadingTime } from '@lib/content/posts';
 import { displayDate } from '@lib/date';
 import { getLqipStyle } from '@lib/lqip';
+import { getDailyQuote } from '@lib/quotes';
 import { routeBuilder } from '@lib/route';
 import { Icon } from 'astro-icon/components';
 import type { BlogPost } from 'types/blog';
@@ -94,9 +95,9 @@ const pageStatsConfig = href ? createArticleStatsConfig(href) : null;
         </>
       ) : (
         <>
-          <h2 class="shadow-text font-chill-round text-5xl/[1.2]">{siteConfig?.alternate}</h2>
-          <h1 class="shadow-text font-chill-round mt-3 text-5xl/[1.2] font-bold tracking-widest">{siteConfig?.title}</h1>
+          <h1 class="shadow-text font-chill-round text-5xl/[1.2] font-bold tracking-widest">{siteConfig?.title}</h1>
           <p class="shadow-text mt-5 text-sm">= {siteConfig?.subtitle} =</p>
+          <p class="shadow-text mt-3 max-w-lg text-xs opacity-80">{getDailyQuote()}</p>
         </>
       )
     }

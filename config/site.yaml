@@ -13,11 +13,11 @@
 site:
   title: highthoughts の博客 # 网站名称
   alternate: highthoughts # 网站英文名称 用于页脚、Logo、@ handle 等
-  subtitle: WA 的一声就哭了 # 网站副标题
+  subtitle: 每日一句精选名言 # 网站副标题
   name: highthoughts # 作者名称
-  description: 一个基于 Astro 的现代化博客主题 # 网站描述
+  description: 技术、AI 与量化交易 # 网站描述
   avatar: /img/avatar.webp # 网站头像
-  showLogo: true # 是否显示 Logo
+  showLogo: false # 是否显示 Logo
   author: highthoughts # 作者名称
   url: https://koharu.highthoughts.ren # 站点 URL 用于 RSS 和 SEO
   defaultOgImage: /img/avatar.webp # 默认 Open Graph 图片
@@ -65,11 +65,11 @@ i18n:
 categoryMap:
   # Primary categories
   随笔: life
-  笔记: note
+  AI: ai
   工具: tools
   周刊: weekly
   # Secondary categories (for nested paths)
-  前端: front-end
+  量化: quant
   # Add more as needed:
   # 书摘: reading
   # 后端: back-end
@@ -91,14 +91,14 @@ featuredCategories:
     label: 随笔
     image: /img/cover/2.webp
     description: 生活记录、随想随笔
-  - link: note # 对应 categoryMap 中 笔记: note
-    label: 笔记
+  - link: ai # 对应 categoryMap 中 AI: ai
+    label: AI
     image: /img/cover/4.webp
-    description: 技术笔记、学习笔记
-  - link: note/front-end # 嵌套分类：笔记/前端
-    label: 前端
+    description: AI 技术、深度学习
+  - link: ai/quant # 嵌套分类：AI/量化
+    label: 量化
     image: /img/cover/1.webp
-    description: 前端技术相关
+    description: 量化交易相关
   - link: tools # 对应 categoryMap 中 工具: tools
     label: 工具
     image: /img/cover/11.webp

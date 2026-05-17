@@ -12,6 +12,7 @@ import type { Page } from 'astro';
 import type { BlogPost } from 'types/blog';
 import CategoryCards from '@/components/post/CategoryCards.astro';
 import Divider from '@/components/ui/divider';
+import Calendar from '@/components/widget/Calendar';
 import { getLocaleFromUrl, localizedPath, t } from '@/i18n';
 
 const locale = getLocaleFromUrl(Astro.url.pathname);
@@ -53,6 +54,7 @@ const page: Page<BlogPost> = {
   <TwoColumnLayout>
     <Cover slot="cover" />
     <HomeSider slot="sider" />
+    <Calendar slot="right" client:load />
     <div
       class={`bg-gradient-start shadow-box tablet:shadow-none flex flex-col gap-4 overflow-hidden  ${CONTENT_PADDING.standard}`}
     >
