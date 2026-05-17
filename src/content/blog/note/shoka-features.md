@@ -335,11 +335,11 @@ $$
 
 ```markdown
 {% links %}
-- site: 余弦の博客
-  url: https://blog.cosine.ren
-  owner: cos
-  desc: FE / ACG / 手工
-  image: https://blog.cosine.ren/img/avatar.webp
+- site: highthoughts の博客
+  url: https://blog.highthoughts.ren
+  owner: highthoughts
+  desc: 技术博客与生活记录
+  image: https://blog.highthoughts.ren/img/avatar.webp
   color: '#ed788b'
 - site: 示例博客
   url: https://example.com
@@ -351,11 +351,11 @@ $$
 ```
 
 {% links %}
-- site: 余弦の博客
-  url: https://blog.cosine.ren
-  owner: cos
-  desc: FE / ACG / 手工
-  image: https://blog.cosine.ren/img/avatar.webp
+- site: highthoughts の博客
+  url: https://blog.highthoughts.ren
+  owner: highthoughts
+  desc: 技术博客与生活记录
+  image: https://blog.highthoughts.ren/img/avatar.webp
   color: '#ed788b'
 - site: 示例博客
   url: https://example.com

@@ -55,7 +55,7 @@ export const ErrorFallback: FC<ErrorFallbackProps> = ({
               Try Again
             </Button>
             <a
-              href="https://github.com/cosZone/astro-koharu/issues/new"
+              href="https://github.com/high-thoughts/astro-koharu/issues/new"
               target="_blank"
               className="flex-center gap-1.5 text-blue-600 text-sm transition-colors hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
               rel="noopener"
@@ -83,7 +83,7 @@ export const InlineErrorFallback: FC<FallbackProps> = ({ error, resetErrorBounda
           Try Again
         </Button>
         <a
-          href="https://github.com/cosZone/astro-koharu/issues/new"
+          href="https://github.com/high-thoughts/astro-koharu/issues/new"
           target="_blank"
           className="flex-center-y gap-1.5 text-blue-600 text-sm transition-colors hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
           rel="noopener"

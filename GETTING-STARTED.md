@@ -21,7 +21,7 @@ npm install -g pnpm
 
 ```bash
 # 方式一：克隆仓库
-git clone https://github.com/cosZone/astro-koharu.git
+git clone https://github.com/high-thoughts/astro-koharu.git
 cd astro-koharu
 
 # 方式二：使用 GitHub 模板（推荐）
@@ -145,7 +145,7 @@ categories:
 
 ### Vercel 一键部署（推荐）
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cosZone/astro-koharu&project-name=astro-koharu&repository-name=astro-koharu)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/high-thoughts/astro-koharu&project-name=astro-koharu&repository-name=astro-koharu)
 
 1. 点击上方按钮
 2. 登录 GitHub 账号
@@ -392,13 +392,13 @@ pnpm koharu restore --latest
 
 - 如果你修改了主题的源代码（如组件样式），合并时可能会产生冲突，需要手动解决
 - 建议在更新前使用 `git stash` 或创建分支保存本地修改
-- 重大版本更新请查看 [Release Notes](https://github.com/cosZone/astro-koharu/releases) 了解破坏性变更
+- 重大版本更新请查看 [Release Notes](https://github.com/high-thoughts/astro-koharu/releases) 了解破坏性变更
 
 ## 获取帮助
 
 - 📖 [详细使用指南](./src/content/blog/tools/astro-koharu-guide.md)
-- 🐛 [提交 Issue](https://github.com/cosZone/astro-koharu/issues)
-- ⭐ [GitHub 仓库](https://github.com/cosZone/astro-koharu)
+- 🐛 [提交 Issue](https://github.com/high-thoughts/astro-koharu/issues)
+- ⭐ [GitHub 仓库](https://github.com/high-thoughts/astro-koharu)
 
 ---
 

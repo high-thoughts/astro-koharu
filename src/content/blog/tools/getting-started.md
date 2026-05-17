@@ -58,7 +58,7 @@ categories:
 
 推荐使用 Vercel 一键部署：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cosZone/astro-koharu)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/high-thoughts/astro-koharu)
 
 ## 了解更多
 

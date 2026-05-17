@@ -181,7 +181,7 @@ pie title 博客内容分布
 - _斜体文本_
 - ~~删除线~~
 - `行内代码`
-- [链接文本](https://github.com/cosZone/astro-koharu)
+- [链接文本](https://github.com/high-thoughts/astro-koharu)
 
 ## 引用
 

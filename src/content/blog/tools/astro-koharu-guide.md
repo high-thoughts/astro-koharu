@@ -16,13 +16,13 @@ categories:
 
 一份完整的 astro-koharu 博客系统使用指南，帮助你快速上手并充分利用所有功能特性。
 
-https://github.com/cosZone/astro-koharu
+https://github.com/high-thoughts/astro-koharu
 
 ## 快速开始
 
 ### 项目简介
 
-astro-koharu 是一个基于 Astro 5.x 构建的现代化博客系统，从 Hexo 迁移而来，设计灵感和初衷都来自 [Shoka](https://github.com/amehime/hexo-theme-shoka) 主题。欢迎 [fork](https://github.com/cosZone/astro-koharu/fork) 出来制作自己的主题。
+astro-koharu 是一个基于 Astro 5.x 构建的现代化博客系统，从 Hexo 迁移而来，设计灵感和初衷都来自 [Shoka](https://github.com/amehime/hexo-theme-shoka) 主题。欢迎 [fork](https://github.com/high-thoughts/astro-koharu/fork) 出来制作自己的主题。
 
 **核心特点：**
 
@@ -46,7 +46,7 @@ astro-koharu 是一个基于 Astro 5.x 构建的现代化博客系统，从 Hexo
 
 ```bash
 # 克隆项目
-git clone https://github.com/cosZone/astro-koharu.git
+git clone https://github.com/high-thoughts/astro-koharu.git
 cd astro-koharu
 
 # 安装依赖
@@ -66,7 +66,7 @@ pnpm preview
 
 使用 Vercel 进行一键部署：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cosZone/astro-koharu&project-name=astro-koharu&repository-name=astro-koharu)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/high-thoughts/astro-koharu&project-name=astro-koharu&repository-name=astro-koharu)
 
 ### 构建缓存说明
 
@@ -85,19 +85,18 @@ pnpm preview
 # 站点基础信息
 # =============================================================================
 site:
-  title: 余弦の博客 # 网站标题
-  alternate: cosine # 英文短名（用作 logo 文本）
+  title: highthoughts の博客 # 网站标题
+  alternate: highthoughts # 英文短名（用作 logo 文本）
   subtitle: WA 的一声就哭了 # 副标题
-  name: cos # 站点作者简称
-  description: FE / ACG / 手工 / 深色模式强迫症 / INFP # 站点简介
+  name: highthoughts # 站点作者简称
+  description: 一个基于 Astro 的现代化博客 # 站点简介
   avatar: /img/avatar.webp # 头像路径
   showLogo: true # 是否显示 logo
-  author: cos # 文章作者
-  url: https://blog.cosine.ren/ # 站点域名
-  startYear: 2020 # 站点创建年份
+  author: highthoughts # 文章作者
+  url: https://blog.highthoughts.ren/ # 站点域名
+  startYear: 2024 # 站点创建年份
   keywords: # SEO 关键词
-    - cos
-    - cosine
+    - highthoughts
     - 博客
     - 技术
     - 前端
@@ -1617,11 +1616,11 @@ fn main() {
 示例效果：
 
 {% links %}
-- site: 余弦の博客
-  url: https://blog.cosine.ren
-  owner: cos
-  desc: FE / ACG / 手工
-  image: https://blog.cosine.ren/img/avatar.webp
+- site: highthoughts の博客
+  url: https://blog.highthoughts.ren
+  owner: highthoughts
+  desc: 技术博客与生活记录
+  image: https://blog.highthoughts.ren/img/avatar.webp
   color: '#ed788b'
 - site: 示例博客
   url: https://example.com
@@ -3066,8 +3065,8 @@ tags:
 
 ## 更新日志
 
-查看 [CHANGELOG.md](https://github.com/cosZone/astro-koharu/blob/main/CHANGELOG.md) 了解版本更新历史。
+查看 [CHANGELOG.md](https://github.com/high-thoughts/astro-koharu/blob/main/CHANGELOG.md) 了解版本更新历史。
 
 ---
 
-如有问题或建议，欢迎在 [GitHub Issues](https://github.com/cosZone/astro-koharu/issues) 中反馈。
+如有问题或建议，欢迎在 [GitHub Issues](https://github.com/high-thoughts/astro-koharu/issues) 中反馈。
