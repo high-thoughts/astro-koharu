@@ -284,4 +284,46 @@ print(spy.tail())
 
 ---
 
+---
+
+## 资料来源
+
+1. [普通人怎么做量化](https://caifuhao.eastmoney.com/news/20251020155623778061450) — 东方财富网
+2. [零基础量化炒股保姆级教程](https://licai.cofool.com/user/guide_view_3084858.html) — 叩富网
+3. [新人做量化交易学习路径](https://licai.cofool.com/user/guide_view_3128520.html) — 叩富网
+4. [从零到一：个人量化交易者券商与资金规划](https://licai.cofool.com/user/guide_view_3211142.html) — 叩富网
+5. [散户怎么做量化交易](https://licai.cofool.com/user/guide_view_3316191.html) — 叩富网
+6. [用 2 万起步量化投资 1 年，亏了多少，学到了什么](https://www.cnblogs.com/jiucaiquant/p/19902261) — 博客园
+7. [小资金如何做大：1 万本金的生存策略](https://www.xtradingtime.com/articles/small-capital-survival-strategy/) — XtradingTime
+8. [小市值量化 25 年总结](https://www.sohu.com/a/973154120_121123927) — 搜狐
+9. [Retail Algorithmic Trading Guide](https://quantmatter.com/retail-algorithmic-trading/) — Quant Matter
+10. [My First Retail Quant Strategy with Python](https://fn.imporinfo.com/2025/10/my-first-retail-quant-strategy-with.html) — 7 Brutal Truths
+11. [Algorithmic Trading for Retail Investors](https://stockalpha.ai/alpha-learning/algorithmic-trading-for-retail-investors-a-beginners-guide-to-automated-strategi) — StockAlpha.ai
+12. [Quantitative Trading for Beginners Complete Guide 2026](https://theledgermind.com/quantitative-trading-for-beginners/) — LedgerMind
+13. [How to Build a Real Trading Portfolio on a Small Account](https://roguequant.substack.com/p/how-to-build-a-real-trading-portfolio) — Rogue Quant
+14. [年化 87%小市值止损策略分析](https://juejin.cn/post/7617784118911418410) — 掘金
+15. [SF13 实盘策略解密小品种小资金](https://www.quant789.com/nd.jsp?id=156) — 松鼠 Quant
+16. [通达信量化交易入门：小资金如何开始程序化交易](https://blog.csdn.net/wencaitouzi/article/details/147572678) — CSDN
+17. [Quantitative Trading Basics](https://minotaurforge.com/quantitative-trading-basics/) — Minotaur Forge
+18. [中小资金如何选择适合自己的量化交易策略](https://licai.cofool.com/user/guide_view_3343142.html) — 叩富网
+19. [Algorithmic Trading for Beginners Complete Guide 2026](https://www.tradealgo.com/trading-guides/ai-trading/algorithmic-trading-for-beginners) — TradeAlgo
+20. [Alpaca - Algorithmic Trading API Commission-Free](https://alpaca.markets/algotrading) — Alpaca Markets
+21. [IBKR Automated Trading System Guide 2026](https://blog.pickmytrade.io/ibkr-automated-trading-system-guide-2026/) — PickMyTrade
+22. [How to Set Up Algo Trading with Interactive Brokers and Python](https://www.quantlabsnet.com/post/how-to-set-up-algorithmic-trading-with-interactive-brokers-and-open-source-python) — QuantLabsNet
+23. [内地怎么直接开盈透证券](https://www.mg21.com/ibkrcn.html) — 美股之家
+24. [2026 年国内用户 Alpaca 券商开户方案](https://www.bitbrowser.cn/blog/alpaca-brokerage-account-opening) — 比特浏览器
+25. [IBKR 盈透证券线上开户使用简明指南 2025](https://blog.sgchuhai.com/zh/posts/IBKR-Online-Account-Opening-&-User-Guide-(2025)-Simplified-Steps-&-Tips/) — SG 老乔
+26. [Small Account Options Trading: Realistic Strategies](https://www.optionstradingin21days.com/blog/small-account-options-trading-realistic-strategies) — OptionsTradingIn21Days
+27. [Best Option Strategies for Small Accounts](https://optionstradingiq.com/best-option-strategies-for-small-accounts/) — OptionsTradingIQ
+28. [Best SPY Options Strategy for Weekly Income 2026](https://www.tradealgo.com/trading-guides/options/best-spy-options-strategy) — TradeAlgo
+29. [Small Account Options Trading PMCC Strategies Under $10,000](https://www.theoptionpremium.com/p/small-account-options-trading) — The Option Premium
+30. [The Alpha Engineer Quant Method Small & Micro-Caps](https://www.thealphaengineer.com/p/quant-microcap-strategy) — The Alpha Engineer
+31. [Monthly US ETF Leaders - A Quant's Guide to Smart-Beta ETFs](https://verifiedbeta.com/monthly-updated-us-etf-scores/) — VerifiedBeta
+32. [盈透证券个人交易者和投资人](https://www.interactivebrokers.co.in/inv/cn/main.php) — IBKR 官方
+33. [在中国的投资者如何开户炒美股](https://www.usgupiao.com/open-account/open-account-in-china/) — 美国股票中文网
+34. [有身份证就可以炒美股的券商推荐](https://www.amz10years.com/ibkr/) — 国民的跨境十年
+35. [中国内地用户盈透证券开户教程 2025](https://yikecaiwan.com/broker/ibkr) — 一颗财丸
+
+---
+
 量化交易是一场马拉松，不是短跑。稳扎稳打，让复利为你工作。
