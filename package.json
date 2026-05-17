@@ -11,7 +11,7 @@
     "generate:summaries:force": "npx tsx src/scripts/generateSummaries.ts --force",
     "generate:all": "npm run generate:lqips && npm run generate:summaries && npm run generate:similarities",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "pnpm run build && wrangler dev",
     "astro": "astro",
     "check": "astro check",
     "lint": "biome check .",
@@ -31,10 +31,13 @@
     "docker:up": "docker compose --env-file ./.env -f docker/docker-compose.yml up -d --build",
     "docker:down": "docker compose -f docker/docker-compose.yml down",
     "docker:logs": "docker compose -f docker/docker-compose.yml logs -f",
-    "docker:rebuild": "bash docker/rebuild.sh"
+    "docker:rebuild": "bash docker/rebuild.sh",
+    "deploy": "pnpm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@antv/infographic": "^0.2.4",
+    "@astrojs/cloudflare": "12",
     "@astrojs/netlify": "^6.6.4",
     "@astrojs/node": "^9.5.2",
     "@astrojs/react": "^4.4.2",
@@ -151,6 +154,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-svgr": "^4.5.0",
+    "wrangler": "^4.92.0",
     "yaml": "^2.8.2"
   },
   "lint-staged": {

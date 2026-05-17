@@ -32,6 +32,8 @@ import { remarkShokaSpoiler } from './src/lib/markdown/remark-shoka-spoiler.ts';
 import { shokaMetaTransformer } from './src/lib/markdown/shiki-meta-transformer.ts';
 import { normalizeUrl } from './src/lib/utils.ts';
 
+import cloudflare from "@astrojs/cloudflare";
+
 // Load YAML config directly with Node.js (before Vite plugins are available)
 // This is only used in astro.config.mjs - other files use @rollup/plugin-yaml
 function loadConfigForAstro() {
@@ -173,6 +175,7 @@ if (contentConfig.enableCodeMeta !== false) shikiTransformers.push(shokaMetaTran
 export default defineConfig({
   site: yamlConfig.site.url,
   compressHTML: true,
+
   markdown: {
     // Enable GitHub Flavored Markdown
     gfm: true,
@@ -190,6 +193,7 @@ export default defineConfig({
       transformers: shikiTransformers,
     },
   },
+
   integrations: [
     react(),
     sitemap(),
@@ -218,9 +222,11 @@ export default defineConfig({
     robotsTxt(robotsConfig || {}),
     ...(isAnalyze ? [Sonda()] : []),
   ],
+
   devToolbar: {
     enabled: true,
   },
+
   vite: {
     build: {
       // Enable sourcemap for Sonda bundle analysis
@@ -234,6 +240,7 @@ export default defineConfig({
       include: ['@antv/infographic'],
     },
   },
+
   // Only enable Astro i18n routing when multiple locales are configured.
   // Single-locale sites skip this entirely — no /[lang]/ routes are generated.
   ...(hasMultipleLocales && {
@@ -246,9 +253,12 @@ export default defineConfig({
       },
     },
   }),
+
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport',
   },
+
   trailingSlash: 'ignore',
+  adapter: cloudflare()
 });
